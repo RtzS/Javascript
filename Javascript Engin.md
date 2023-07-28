@@ -13,9 +13,12 @@ Let’s understand each of them.
 **1. V8:** V8 is a JavaScript engine developed by the Chromium Project for Google Chrome and Chromium web browsers. It is a JavaScript engine that can run standalone, or be embedded into any C++ application. Using its own parser, it generates an abstract syntax tree. Then, Ignition generates bytecode from this syntax tree using the internal V8 bytecode format. Bytecode is compiled into machine code by TurboFan. It also handles memory allocation for objects, and garbage collects objects it no longer needs. Optimization techniques such as elision of expensive runtime properties, and inline caching. The garbage collector is a generational incremental collector.
 
 V8 provides an edge as it allows JavaScript to run much faster, which improves users’ experience of the web, paves the way for the development of web applications, and spurs rapid growth of server-side JavaScript through projects like Node.js.
+
+![image](https://github.com/RtzS/Javascript/assets/8089250/72d6320e-0d45-4be4-bddf-6cc9fff30b7a)
+
 ![image](https://github.com/RtzS/Javascript/assets/8089250/5d643e95-ad6e-436f-b96f-66a98737acd1)
 
-
+Above digram demonstrate how egin works.
 
 **2. Chakra:** Chakra is a JScript engine developed by Microsoft. It is proprietary software. It is used in the Internet Explorer web browser. A distinctive feature of the engine is that it JIT compiles scripts on a separate CPU core, parallel to the web browser.
 
