@@ -29,6 +29,7 @@ How Does **Just-in-Time Compilation (JIT)** Work?
 So, how does the JavaScript Just-in-Time compiler work? As a new piece of JavaScript code enters the JavaScript Engine, the first step performed is parsing of the code. During this process, the code is parsed into a data structure called the Abstract Syntax Tree (AST).
 
 The Abstract Syntax Tree first splits each line of code into pieces that are meaningful to JavaScript, such as the let, static, or function keywords. It then saves these pieces of code into a tree-like structure. The next step checks whether there are any syntax errors and, if none are found, the resulting tree is used to generate the machine code.
+
 ![image](https://github.com/RtzS/Javascript/assets/8089250/248f7bd5-01a5-48fe-99cc-416e5f4cd455)
 
 ![image](https://github.com/RtzS/Javascript/assets/8089250/73149595-6a53-4a52-91cb-620a6c92ca48)
